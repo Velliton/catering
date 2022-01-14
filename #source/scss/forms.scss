@@ -1,0 +1,45 @@
+.btn {
+  
+  height: 50px;
+  background-color:#000;
+  line-height: 50px;
+  display: inline-block;
+  padding: 0px 33px;
+  font-size: 15px;
+  font-family: 'Bebas';
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color:#ffffff;
+  &-w{
+  	background-color: #ffffff;
+  	color: #000;
+  }
+}
+
+input[type=text],input[type=email],input[type=tel],textarea{
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+}
+.input{
+	border-radius: 0 !important;
+	width: 100%;
+	display: block;
+	padding: 0px 18px;
+	height: 50px;
+	border:2px solid #959595;
+	background-color:#252525;
+	color:#959595;
+	font-size: 15px;
+	font-family: "PT Sans";
+	&.focus{}
+	&.err{
+		border: 2px solid red;
+	}
+}
+
+textarea.input{
+	resize:none;
+	height: 100px;
+	padding: 10px 18px;
+}
